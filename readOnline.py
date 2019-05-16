@@ -1,6 +1,3 @@
-# https://raw.githubusercontent.com/terna/oligopoly/master/exampleGauss/11.txt
-
-
 # https://stackoverflow.com/questions/15138614/how-can-i-read-the-contents-of-an-url-with-python
 
 
@@ -16,5 +13,5 @@ except:
     os.sys.exit(1)
 
 for i in range(10):
-    d = f.readline()  
+    d = f.readline()
     print(float(d))
