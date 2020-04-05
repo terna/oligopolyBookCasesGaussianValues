@@ -4,7 +4,7 @@
 import urllib.request
 import os
 
-link = "https://raw.githubusercontent.com/terna/oligopolyBookCasesGaussianValues/master/11.txt"
+link = "https://media.githubusercontent.com/media/terna/oligopolyBookCasesGaussianValues/master/11.txt"
 
 try:
     f = urllib.request.urlopen(link)

@@ -4,13 +4,15 @@
 import urllib.request
 import os
 
-link = "https://raw.githubusercontent.com/terna/oligopolyBookCasesGaussianValues/master/11.txt"
+link = "https://media.githubusercontent.com/media/terna/oligopolyBookCasesGaussianValues/master/11.txt"
 
 try:
     f = urllib.request.urlopen(link)
 except:
     print("online data not found")
     os.sys.exit(1)
+
+# the file contains 500500 records
 
 for i in range(400000):
     d = f.readline()
