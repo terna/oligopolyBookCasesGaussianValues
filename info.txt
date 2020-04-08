@@ -1,0 +1,1 @@
+zip files to avoid extra large ones, requiring the use of the LFS tool of git
