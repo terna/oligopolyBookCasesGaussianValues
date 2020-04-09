@@ -7,7 +7,7 @@ compression = zipfile.ZIP_DEFLATED
 print('creating archive')
 with zipfile.ZipFile('111.txt.zip', mode='w') as zf:
     print('111.txt')
-    zf.write('111.txt',compress_type=compression) #'1.txt'
+    zf.write('111.txt',compress_type=compression)
     print('compressed')
 
 
